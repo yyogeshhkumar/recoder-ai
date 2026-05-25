@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/reviews";
+const API = `${import.meta.env.VITE_API_URL}/api/reviews`;
 
 export const createReview = async (data, token) => {
   const res = await axios.post(API, data, {
