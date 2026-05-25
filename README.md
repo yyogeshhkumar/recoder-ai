@@ -46,28 +46,37 @@ It is designed as a complete product with authentication, history tracking, and 
 ## Tech Stack
 
 Frontend:
+```bash
 - React
 - Tailwind CSS
 - Context API
+```
 
 Backend:
+```bash
 - Node.js
 - Express
+```
 
 Database:
+```bash
 - MongoDB
+```
 
 AI Integration:
+
 - OpenRouter API (LLM-based code analysis)
 
 ---
 
 ## Project Structure
 
+```bash
 recoder-ai/
   ├── frontend/        React application (UI)
   ├── backend/         Express server (API + AI logic)
   └── README.md        Project documentation
+```
 
 ---
 
@@ -82,9 +91,11 @@ cd recoder-ai
 
 Backend setup:
 
+```bash
 cd backend  
 npm install  
 npm run dev  
+```
 
 ---
 
@@ -100,9 +111,11 @@ npm run dev
 
 Create a `.env` file in the backend directory and add:
 
+```bash
 MONGO_URI=your_mongodb_connection_string  
 JWT_SECRET=your_secret_key  
 OPENROUTER_API_KEY=your_api_key  
+```
 
 ---
 
