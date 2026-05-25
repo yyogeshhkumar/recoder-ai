@@ -89,11 +89,11 @@ npm run dev
 ---
 
 Frontend setup:
-
+```bash
 cd frontend  
 npm install  
 npm run dev  
-
+```
 ---
 
 ## Environment Variables
