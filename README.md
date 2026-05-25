@@ -11,6 +11,12 @@ The goal of this project is to simulate a real-world code review workflow using 
 - Live website : https://recoder-client.vercel.app
 - Github Repository : https://github.com/yyogeshhkumar/recoder-ai
 
+- Important Note on First Load
+```bash
+The deployed app may take up to ~50 seconds to respond on the first visit. This is due to serverless cold start behavior on Vercel when the instance has been idle.
+After the initial request, the application performs normally.
+```
+
 ## Overview
 
 ReCoder allows users to submit code and receive detailed feedback in a structured format. Instead of just pointing out issues, the system explains them and suggests improvements, making it useful for both learning and development workflows.
